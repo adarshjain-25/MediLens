@@ -1,0 +1,26 @@
+# Environment variables
+.env
+*.env
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# User auth & persistent session data
+users.json
+
+# Streamlit temporary/cache files
+.streamlit/*.secret.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
